@@ -1,0 +1,235 @@
+
+1. `<!DOCTYPE>`
+- **Description:** The `<!DOCTYPE>` declaration defines the document type and version of HTML being used. It helps the browser render the page correctly. For HTML5, it looks like this: `<!DOCTYPE html>`.
+- **Example:**
+  ```html
+  <!DOCTYPE html>
+  ```
+
+### 2. `<html>`
+- **Description:** The `<html>` tag is the root element of an HTML document. All other HTML elements are contained within this tag.
+- **Example:**
+  ```html
+  <html>
+    <head>
+      <title>Page Title</title>
+    </head>
+    <body>
+      <h1>Hello, World!</h1>
+    </body>
+  </html>
+  ```
+
+### 3. `<head>`
+- **Description:** The `<head>` tag contains metadata (data about data) and links to resources like stylesheets and scripts. It can also contain the document's title, character set, and other meta-information.
+- **Example:**
+  ```html
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  ```
+
+### 4. `<title>`
+- **Description:** The `<title>` tag sets the title of the webpage, which appears in the browser's title bar or tab. It is placed inside the `<head>` tag.
+- **Example:**
+  ```html
+  <title>My Website</title>
+  ```
+
+### 5. `<body>`
+- **Description:** The `<body>` tag contains the content of the HTML document, such as text, images, links, and other elements. It is placed directly inside the `<html>` tag.
+- **Example:**
+  ```html
+  <body>
+    <h1>Welcome to my website!</h1>
+  </body>
+  ```
+
+### 6. `<h1>` to `<h6>`
+- **Description:** These tags define headings, with `<h1>` being the highest or most important level and `<h6>` being the least important. Headings help structure the content and make it easier for search engines and users to understand.
+- **Example:**
+  ```html
+  <h1>Main Heading</h1>
+  <h2>Subheading</h2>
+  ```
+
+### 7. `<p>`
+- **Description:** The `<p>` tag defines a paragraph of text. Browsers usually add space before and after a paragraph to separate it from other content.
+- **Example:**
+  ```html
+  <p>This is a paragraph of text.</p>
+  ```
+
+### 8. `<a>`
+- **Description:** The `<a>` tag defines a hyperlink, which is used to link to other web pages or locations within the same page. The `href` attribute specifies the destination URL.
+- **Example:**
+  ```html
+  <a href="https://www.example.com">Visit Example.com</a>
+  ```
+
+### 9. `<img>`
+- **Description:** The `<img>` tag is used to embed images in an HTML page. It requires the `src` attribute to define the source of the image and the `alt` attribute to provide alternative text for screen readers.
+- **Example:**
+  ```html
+  <img src="image.jpg" alt="A description of the image">
+  ```
+
+### 10. `<ul>`
+- **Description:** The `<ul>` tag defines an unordered list, which is typically rendered as a bulleted list.
+- **Example:**
+  ```html
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+  ```
+
+### 11. `<ol>`
+- **Description:** The `<ol>` tag defines an ordered list, which is typically rendered as a numbered list.
+- **Example:**
+  ```html
+  <ol>
+    <li>First item</li>
+    <li>Second item</li>
+  </ol>
+  ```
+
+### 12. `<li>`
+- **Description:** The `<li>` tag defines a list item within an ordered (`<ol>`) or unordered (`<ul>`) list.
+- **Example:**
+  ```html
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+  ```
+
+### 13. `<div>`
+- **Description:** The `<div>` tag is a generic container element used to group other elements and apply styles or scripts to them. It doesn’t inherently carry any semantic meaning.
+- **Example:**
+  ```html
+  <div class="container">
+    <h2>Section Heading</h2>
+    <p>This is a section of content.</p>
+  </div>
+  ```
+
+### 14. `<span>`
+- **Description:** The `<span>` tag is an inline container used to group text or other inline elements. Unlike `<div>`, it doesn’t create a line break.
+- **Example:**
+  ```html
+  <p>This is <span style="color:red">red text</span>.</p>
+  ```
+
+### 15. `<table>`
+- **Description:** The `<table>` tag defines a table for displaying data in rows and columns.
+- **Example:**
+  ```html
+  <table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+    </tr>
+  </table>
+  ```
+
+### 16. `<tr>`
+- **Description:** The `<tr>` tag defines a row in a table, which contains one or more cells (`<th>` or `<td>`).
+- **Example:**
+  ```html
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+  </tr>
+  ```
+
+### 17. `<th>`
+- **Description:** The `<th>` tag defines a header cell in a table, typically displayed in bold and centered.
+- **Example:**
+  ```html
+  <th>Header</th>
+  ```
+
+### 18. `<td>`
+- **Description:** The `<td>` tag defines a standard cell in a table.
+- **Example:**
+  ```html
+  <td>Cell content</td>
+  ```
+
+### 19. `<form>`
+- **Description:** The `<form>` tag defines an HTML form used to collect user input. It often includes input elements like text fields, checkboxes, and buttons.
+- **Example:**
+  ```html
+  <form action="/submit-form" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <button type="submit">Submit</button>
+  </form>
+  ```
+
+### 20. `<input>`
+- **Description:** The `<input>` tag defines an input field in a form. It can take various types (e.g., text, password, checkbox) via the `type` attribute.
+- **Example:**
+  ```html
+  <input type="text" name="username">
+  ```
+
+### 21. `<textarea>`
+- **Description:** The `<textarea>` tag defines a multi-line text input field in a form.
+- **Example:**
+  ```html
+  <textarea name="comments" rows="4" cols="50"></textarea>
+  ```
+
+### 22. `<select>`
+- **Description:** The `<select>` tag defines a drop-down list in a form. It contains one or more `<option>` elements.
+- **Example:**
+  ```html
+  <select name="options">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+  </select>
+  ```
+
+### 23. `<option>`
+- **Description:** The `<option>` tag defines an option in a drop-down list (`<select>`).
+- **Example:**
+  ```html
+  <option value="1">Option 1</option>
+  ```
+
+### 24. `<button>`
+- **Description:** The `<button>` tag defines a clickable button, which can be used to submit forms or trigger JavaScript actions.
+- **Example:**
+  ```html
+  <button type="submit">Submit</button>
+  ```
+
+### 25. `<label>`
+- **Description:** The `<label>` tag defines a label for an `<input>` element, making the form more accessible by associating text with a form control.
+- **Example:**
+  ```html
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username">
+  ```
+
+### 26. `<iframe>`
+- **Description:** The `<iframe>` tag is used to embed another HTML page within the current page.
+- **Example:**
+  ```html
+  <iframe src="https://www.example.com" width="600" height="400"></iframe>
+  ```
+
+### 27. `<meta>`
+- **Description:** The `<meta>` tag provides metadata about the HTML document, such as character set, author, and viewport settings. These tags are typically placed in the `<head>` section.
+- **Example:**
+  ```html
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
