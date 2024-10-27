@@ -1,0 +1,195 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #36b5a0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.booking-btn {
+    background-color: #ffdd59;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eafaf6;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #36b5a0;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #ffdd59;
+    color: #333;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destinations h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.destination img, .tour img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.popular-tours {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer .newsletter {
+    margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #36b5a0;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    nav.active ul {
+        display: flex;
+    }
+
+    .cta-buttons a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-image img {
+        width: 80%;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+}
