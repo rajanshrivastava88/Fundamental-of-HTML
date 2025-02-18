@@ -1,357 +1,317 @@
-1.
-<!DOCTYPE>
+1. <!DOCTYPE>
 
-The
-<!DOCTYPE> declaration defines the document type and version of HTML being used.
-It helps the browser render the page correctly.
+The <!DOCTYPE> declaration defines the document type and version of HTML being used. 
+It helps the browser render the page correctly. 
 
-For HTML5, it looks like this: `
-<!DOCTYPE html>`.
+For HTML5, it looks like this: `<!DOCTYPE html>`.
 
 Example:
 
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
 2. <html>
 
-The `<html>` tag is the root element of an HTML document.
-All other HTML elements are contained within this tag.
-
+    The `<html>` tag is the root element of an HTML document. 
+    All other HTML elements are contained within this tag.
+    
 Example:
-
-<html>
-
-<head>
-  <title>Page Title</title>
-</head>
-
-<body>
-  <h1>Hello, World!</h1>
-</body>
-
-</html>
+  
+  <html>
+    <head>
+      <title>Page Title</title>
+    </head>
+    <body>
+      <h1>Hello, World!</h1>
+    </body>
+  </html>
 
 
-3.
+3. <head>
 
-<head>
-
-  The
-
-  <head> tag contains metadata (data about data) and links to resources like stylesheets and scripts.
+    The <head> tag contains metadata (data about data) and links to resources like stylesheets and scripts. 
     It can also contain the document's title, character set, and other meta-information.
 
-    Example:
+Example:
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
 
-    <head>
-      <meta charset="UTF-8">
-      <title>Page Title</title>
-      <link rel="stylesheet" href="styles.css">
-    </head>
+4. <title>
 
+    The <title> tag sets the title of the webpage, which appears in the browser's title bar or tab. 
+    It is placed inside the <head> tag.
 
-    4. <title>
-
-      The <title> tag sets the title of the webpage, which appears in the browser's title bar or tab.
-        It is placed inside the
-
-        <head> tag.
-
-          Example:
-
-          <title>My Website</title>
+Example:
+  
+  <title>My Website</title>
 
 
-          5.
+5. <body>
 
-        <body>
-
-          The
-
-  <body> tag contains the content of the HTML document, such as text, images, links, and other elements.
+    The <body> tag contains the content of the HTML document, such as text, images, links, and other elements. 
     It is placed directly inside the <html> tag.
 
-    Example:
-
-<body>
-  <h1>Welcome to my website!</h1>
-</body>
+Example:
+  
+  <body>
+    <h1>Welcome to my website!</h1>
+  </body>
 
 
 6. <h1> to <h6>
 
-    These tags define headings, with <h1> being the highest or most important level and <h6> being the least
-        important.
+    These tags define headings, with <h1> being the highest or most important level and <h6> being the least 
+    important. 
+    
+    Headings help structure the content and make it easier for search engines and users to understand.
 
-        Headings help structure the content and make it easier for search engines and users to understand.
+Example:
+  
+  <h1>Main Heading</h1>
+  <h2>Subheading</h2>
 
-        Example:
 
-        <h1>Main Heading</h1>
-        <h2>Subheading</h2>
+7. <p>
 
+    The <p> tag defines a paragraph of text. Browsers usually add space before and after a paragraph to separate 
+    it from other content.
 
-        7. <p>
+Example:
 
-          The
-        <p> tag defines a paragraph of text. Browsers usually add space before and after a paragraph to separate
-          it from other content.
+  <p>This is a paragraph of text.</p>
 
-          Example:
 
-        <p>This is a paragraph of text.</p>
+8. <a>
 
+  The <a> tag defines a hyperlink, which is used to link to other web pages or locations within the same page. 
+  The href attribute specifies the destination URL.
 
-        8. <a>
+Example:
 
-          The <a> tag defines a hyperlink, which is used to link to other web pages or locations within the same page.
-            The href attribute specifies the destination URL.
+  <a href="https://www.example.com">Visit Example.com</a>
 
-            Example:
 
-            <a href="https://www.example.com">Visit Example.com</a>
+9. <img>
 
+The <img> tag is used to embed images in an HTML page. 
+It requires the `src` attribute to define the source of the image and the `alt` attribute to provide alternative 
+text for screen readers.
 
-            9. <img>
+Example:
 
-            The <img> tag is used to embed images in an HTML page.
-            It requires the `src` attribute to define the source of the image and the `alt` attribute to provide
-            alternative
-            text for screen readers.
+<img src="image.jpg" alt="A description of the image">
 
-            Example:
 
-            <img src="image.jpg" alt="A description of the image">
+10. <ul>
 
+The <ul> tag defines an unordered list, which is typically rendered as a bulleted list.
 
-            10. <ul>
+Example:
 
-              The <ul> tag defines an unordered list, which is typically rendered as a bulleted list.
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
 
-                Example:
 
-                <ul>
-                  <li>Item 1</li>
-                  <li>Item 2</li>
-                </ul>
+11. <ol>
 
+The <ol> tag defines an ordered list, which is typically rendered as a numbered list.
 
-                11. <ol>
+Example:
 
-                  The <ol> tag defines an ordered list, which is typically rendered as a numbered list.
+  <ol>
+    <li>First item</li>
+    <li>Second item</li>
+  </ol>
 
-                    Example:
 
-                    <ol>
-                      <li>First item</li>
-                      <li>Second item</li>
-                    </ol>
+12. <li>
 
+The <li> tag defines a list item within an ordered (<ol>) or unordered (<ul>) list.
 
-                    12. <li>
+Example:
 
-                      The
-                    <li> tag defines a list item within an ordered (<ol>) or unordered (<ul>) list.
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
 
-                          Example:
 
-                          <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                          </ul>
+13. <div>
 
+The <div> tag is a generic container element used to group other elements and apply styles or scripts to them. 
+It doesn’t inherently carry any semantic meaning.
 
-                          13. <div>
+Example:
 
-                            The <div> tag is a generic container element used to group other elements and apply styles
-                              or scripts to them.
-                              It doesn’t inherently carry any semantic meaning.
+  <div class="container">
+    <h2>Section Heading</h2>
+    <p>This is a section of content.</p>
+  </div>
 
-                              Example:
 
-                              <div class="container">
-                                <h2>Section Heading</h2>
-                                <p>This is a section of content.</p>
-                              </div>
+14. <span>
 
+  The <span> tag is an inline container used to group text or other inline elements. 
+  Unlike <div>, it doesn’t create a line break.
 
-                              14. <span>
+Example:
 
-                                The <span> tag is an inline container used to group text or other inline elements.
-                                  Unlike <div>, it doesn’t create a line break.
+  <p>This is <span style="color:red">red text</span>.</p>
 
-                                    Example:
 
-                                    <p>This is <span style="color:red">red text</span>.</p>
 
+15. <table>
+Example:
 
+  <table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+    </tr>
+  </table>
 
-                                    15. <table>
-                                      Example:
 
-                                      <table>
-                                        <tr>
-                                          <th>Header 1</th>
-                                          <th>Header 2</th>
-                                        </tr>
-                                        <tr>
-                                          <td>Data 1</td>
-                                          <td>Data 2</td>
-                                        </tr>
-                                      </table>
 
+16. <tr>
+  The <tr> tag defines a row in a table, which contains one or more cells (<th> or <td>).
 
+Example:
 
-                                      16. <tr>
-                                        The
-                                      <tr> tag defines a row in a table, which contains one or more cells (<th> or
-                                        <td>).
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+  </tr>
 
-                                          Example:
 
-                                      <tr>
-                                        <td>Row 1, Cell 1</td>
-                                        <td>Row 1, Cell 2</td>
-                                      </tr>
 
+17. <th>
 
+  The <th> tag defines a header cell in a table, typically displayed in bold and centered.
 
-                                      17. <th>
+Example:
 
-                                        The
-                                      <th> tag defines a header cell in a table, typically displayed in bold and
-                                        centered.
+  <th>Header</th>
 
-                                        Example:
 
-                                      <th>Header</th>
 
+18. <td>
 
+  The <td> tag defines a standard cell in a table.
 
-                                      18. <td>
+  Example:
 
-                                        The
-                                      <td> tag defines a standard cell in a table.
+  <td>Cell content</td>
 
-                                        Example:
 
-                                      <td>Cell content</td>
 
 
+19. <form>
 
+  The <form> tag defines an HTML form used to collect user input. It often includes input elements like text fields, 
+  checkboxes, and buttons.
 
-                                      19. <form>
+Example:
 
-                                        The <form> tag defines an HTML form used to collect user input. It often
-                                          includes input elements like text fields,
-                                          checkboxes, and buttons.
+  <form action="/submit-form" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <button type="submit">Submit</button>
+  </form>
 
-                                          Example:
 
-                                          <form action="/submit-form" method="POST">
-                                            <label for="name">Name:</label>
-                                            <input type="text" id="name" name="name">
-                                            <button type="submit">Submit</button>
-                                          </form>
 
+20. <input>
 
+  The <input> tag defines an input field in a form. It can take various types (e.g., text, password, checkbox) via 
+  the type attribute.
 
-                                          20. <input>
+Example:
 
-                                          The <input> tag defines an input field in a form. It can take various types
-                                          (e.g., text, password, checkbox) via
-                                          the type attribute.
+  <input type="text" name="username">
 
-                                          Example:
 
-                                          <input type="text" name="username">
 
-
-
-                                          21. <textarea>
+21. <textarea>
 
   The <textarea> tag defines a multi-line text input field in a form.
 
 Example:
   
   <textarea name="comments" rows="4" cols="50"></textarea>
+  
+
+
+22. <select>
+
+  The <select> tag defines a drop-down list in a form. It contains one or more <option> elements.
+
+Example:
+
+  <select name="options">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+  </select>
 
 
 
-                                          22. <select>
+23. <option>
 
-                                            The <select> tag defines a drop-down list in a form. It contains one or more
-                                              <option> elements.
+  The <option> tag defines an option in a drop-down list (<select>).
 
-                                                Example:
+Example:
 
-                                                <select name="options">
-                                                  <option value="1">Option 1</option>
-                                                  <option value="2">Option 2</option>
-                                                </select>
+  <option value="1">Option 1</option>
 
 
 
-                                                23.
-                                              <option>
+24. <button>
 
-                                                The
-                                              <option> tag defines an option in a drop-down list (<select>).
+  The <button> tag defines a clickable button, which can be used to submit forms or trigger JavaScript actions.
 
-                                                  Example:
+Example:
 
-                                                  <option value="1">Option 1</option>
+  <button type="submit">Submit</button>
 
 
 
-                                                  24. <button>
+25. <label>
 
-                                                    The <button> tag defines a clickable button, which can be used to
-                                                      submit forms or trigger JavaScript actions.
+  The <label> tag defines a label for an <input> element, making the form more accessible by associating text 
+  with a form control.
 
-                                                      Example:
+  Example:
 
-                                                      <button type="submit">Submit</button>
-
-
-
-                                                      25. <label>
-
-                                                        The <label> tag defines a label for an <input> element, making
-                                                          the form more accessible by associating text
-                                                          with a form control.
-
-                                                          Example:
-
-                                                          <label for="username">Username:</label>
-                                                          <input type="text" id="username" name="username">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username">
 
 
 
-                                                          26. <iframe>
+26. <iframe>
 
-                                                            The <iframe> tag is used to embed another HTML page within
-                                                              the current page.
+  The <iframe> tag is used to embed another HTML page within the current page.
 
-                                                              Example:
+Example:
 
-                                                              <iframe src="https://www.example.com" width="600"
-                                                                height="400"></iframe>
+  <iframe src="https://www.example.com" width="600" height="400"></iframe>
 
 
 
-                                                              27.
-                                                              <meta>
+27. <meta>
 
-                                                              The
-                                                              <meta> tag provides metadata about the HTML document, such
-                                                              as character set, author, and viewport settings.
-                                                              These tags are typically placed in the
+The <meta> tag provides metadata about the HTML document, such as character set, author, and viewport settings. 
+These tags are typically placed in the <head> section.
 
-                                                              <head> section.
+Example:
 
-                                                                Example:
-
-                                                                <meta charset="UTF-8">
-                                                                <meta name="viewport"
-                                                                  content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
