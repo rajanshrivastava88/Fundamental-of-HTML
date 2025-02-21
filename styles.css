@@ -121,7 +121,8 @@ nav ul li a {
     gap: 20px;
 }
 
-.destination img, .tour img {
+.destination img,
+.tour img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
