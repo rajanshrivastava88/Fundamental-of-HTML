@@ -7,7 +7,6 @@
     <title>Table Headers</title>
 
     <style>
-
         table,
         th,
         td {
@@ -54,65 +53,66 @@ Table headers are defined with th elements. Each th element represents a table c
     </p>
 
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <td>Jill</td>
-    <td>Eve</td>
-  </tr>
-  <tr>
-    <th>Lastname</th>
-    <td>Smith</td>
-    <td>Jackson</td>
-  </tr>
-  <tr>
-    <th>Age</th>  
-    <td>50</td>
-    <td>94</td>
-  </tr>
-</table>
-
-<p>>
-
-Align Table Headers
-By default, table headers are bold and centered:
-
-</p>
-
-To left-align the table headers, use the CSS text-align property:
-
-Example
-th {
-  text-align: left;
-}
-
-
-<p>
-
-Header for Multiple Columns
-You can have a header that spans over two or more columns.
-
-</p>
-
-To do this, use the colspan attribute on the <th> element:
-
-    Example
-    <table>
-      <tr>
-        <th colspan="2">Name</th>
-        <th>Age</th>
-      </tr>
-      <tr>
-        <td>Jill</td>
-        <td>Smith</td>
-        <td>50</td>
-      </tr>
-      <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
-        <td>94</td>
-      </tr>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <td>Jill</td>
+            <td>Eve</td>
+        </tr>
+        <tr>
+            <th>Lastname</th>
+            <td>Smith</td>
+            <td>Jackson</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>50</td>
+            <td>94</td>
+        </tr>
     </table>
 
+    <p>>
+
+        Align Table Headers
+        By default, table headers are bold and centered:
+
+    </p>
+
+    To left-align the table headers, use the CSS text-align property:
+
+    Example
+    th {
+    text-align: left;
+    }
+
+
+    <p>
+
+        Header for Multiple Columns
+        You can have a header that spans over two or more columns.
+
+    </p>
+
+    To do this, use the colspan attribute on the <th> element:
+
+        Example
+        <table>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
+
 </body>
+
 </html>
